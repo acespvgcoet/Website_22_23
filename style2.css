@@ -114,22 +114,46 @@ body
  h1
 {
     text-align: center;
+    align-items: center;
     font-weight: 900;
     color: aliceblue;
-    border: 3px solid white;
-    position: relative;
+    border: 2px solid white;
+    position: relative; 
     font-size: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 10px;
     width: fit-content;
-    margin-left: 600px;
+    margin-left: 500px;
     top: 40px;
     
     
 }
 .technical{
    align-items: center;
+   margin-left: 25px;
     
+}
+.Faculty{
+  margin-left: -20px;
+  align-content: center;
+}
+.Leads{
+  margin-left: 40px;
+}
+.web{
+  margin-left: 75px;
+}
+.Event{
+  margin-left: 60px;
+}
+.Editorial{
+  margin-left: 45px;
+}
+.Design{
+  margin-left: -85px;
+}
+.Treasury{
+  margin-left: 45px;
 }
 
 
@@ -138,7 +162,7 @@ body
     position: absolute;
     bottom: 30px;
     display: flex;
-    left: 45px;
+    left: 50px;
     
 }
 .page .card .sci li
