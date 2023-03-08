@@ -220,8 +220,8 @@ body
   
   .sub-header .right-icons ul li a {
     color: #fff;
-    font-size: 14px;
-    transition: all .3s;
+    font-size: 15px;
+    transition: all .5s;
   }
   
   .sub-header .right-icons ul li a:hover {
