@@ -10,6 +10,7 @@ body {
     padding: 10px;
     justify-content: center;
     align-items: center;
+    
 }
 
 .Stats{
@@ -19,9 +20,8 @@ align-items: center;
 justify-content: center;
 }
 
-.logo{
-    margin-top:1px;
-}
+
+
 .card{
     background-image: url(events\ace _cpp\cpp_images\service-item-bg.jpg);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
