@@ -30,6 +30,27 @@
         align-items: center;
       }
 }
+.video-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  }.video-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      max-width: 50%;
+      height: auto;
+    }
+  }
 
   </style>
 <body>
@@ -55,14 +76,15 @@
                           <li class="has-sub">
                               <a href="javascript:void(0)">Events</a>
                               <ul class="sub-menu">
-                                  <li><a href="events\inauguration\inauguration.html">Innaguration</a></li>
+                                  <li><a href="events\inauguration\inauguration.html">Inauguration</a></li>
                                   <li><a href="\events\ace _cpp\cpp.html">ACE CPP</a></li>
                                   <li><a href="\events\diwali_fiesta\Diwali_fiesta.html">Diwali Fiesta</a></li>
+                                  <li><a href="\events\code_mode\code_mode.html">Code Mode</a></li>
                               </ul>
                           </li>
                           <li class="scroll-to-section"><a href="#courses">Calendar</a></li> 
                           <li class="scroll-to-section"><a href="#contact">Contact Us</a></li> 
-                          <li class="scroll-to-section"><a href="index.html">Magazine</a></li> 
+                          <!-- <li class="scroll-to-section"><a href="index.html">Magazine</a></li>  -->
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>
@@ -78,11 +100,10 @@
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
-      <video autoplay muted loop id="bg-video">
-          <!-- <source src="assets/images/course-video.mp4" type="video/mp4" /> -->
-          <source src="assets\images\home_page.mp4" type="video/mp4" />
-      </video>
 
+    <div class="video-container">
+      <img src="images\committee_photo.jpeg" alt="image">
+    </div>
       <div class="video-overlay header-text">
           <div class="container">
             <div class="row">
@@ -261,7 +282,7 @@
             <div class="item">
               <img src="assets/images/course-01.jpg" alt="Course One">
               <div class="down-content">
-                <h4>Innaguration</h4>
+                <h4>Inauguration</h4>
                 <div class="info">
                   <div class="row">
                     <div class="col-8">

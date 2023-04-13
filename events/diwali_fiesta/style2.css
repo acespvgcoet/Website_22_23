@@ -11,6 +11,12 @@ body
     position: relative;
     background-image: url(assets/images/meetings-bg.jpg);
  }
+ .eventname{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: white;
+}
  /* section::before
  {
     content: '';
